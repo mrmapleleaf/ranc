@@ -1,0 +1,123 @@
+@CHARSET "UTF-8";
+
+.logo {
+    width : 50px;
+    height : 50px;
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    background-color: #ff8b51;
+    margin: 0px;
+    padding: 10px 10px;
+    -webkit-border-radius:8px 8px 0px 0px;
+    -moz-border-radius:8px 8px 0px 0px;
+    border-radius:8px 8px 0px 0px;
+    color: white;
+}
+
+#header {
+margin-bottom: 30px;
+text-align: center;
+}
+
+.annotation {
+    color: #ff8b51;
+    font-size: 5px;
+}
+
+.errorMsg {
+    position: relative;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #ff8b51;
+    border-radius: 8px;
+}
+
+.errorMsg .errorTitle {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #ff8b51;
+    font-weight: bold;
+}
+
+.form {
+    display: inline-block;
+    padding: 0px;
+    border: 1px solid;
+    border-radius: 8px;
+
+}
+
+.lastName {
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.firstName {
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.birthDate {
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.button {
+    padding: 10px 10px 20px 10px;
+    font-size:16px;
+    -webkit-border-radius:0px 0px 8px 8px;
+    -moz-border-radius:0px 0px 8px 8px;
+    border-radius:0px 0px 8px 8px;
+
+}
+
+button {
+    background: #ff8b51;
+    font-size:16px;
+    font-weight: bold;
+    color: white;
+    -webkit-border-radius:8px 8px 8px 8px;
+    -moz-border-radius:8px 8px 8px 8px;
+    border-radius:8px 8px 8px 8px;
+    border: none;
+    width: 200px;
+    height: 50px;
+
+
+}
+
+button:hover {
+  background:#eb804c;
+}
+
+#mainContent1 {
+    text-align: center;
+}
+
+#mainContent2 {
+    text-align: center;
+}
+
+.accountName {
+    font-size: 20px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
