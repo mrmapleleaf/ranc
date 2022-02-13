@@ -9,7 +9,6 @@
   </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <pluginManagement>
     <plugins>
     <plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -19,7 +18,7 @@
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
-      </plugin>
+    </plugin>
     <plugin>
     <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
@@ -27,8 +26,8 @@
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
-      </plugin>
-      <plugin>
+    </plugin>
+          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
             <executions>
@@ -40,7 +39,7 @@
                             <artifactItem>
                                 <groupId>com.github.jsimone</groupId>
                                 <artifactId>webapp-runner</artifactId>
-                                <version>9.0.13.0</version>
+                                <version>8.0.43</version>
                                 <destFileName>webapp-runner.jar</destFileName>
                             </artifactItem>
                         </artifactItems>
@@ -48,8 +47,7 @@
                 </execution>
             </executions>
         </plugin>
-    </plugins>
-    </pluginManagement>
+  </plugins>
   </build>
   <dependencies>
       <dependency>
@@ -62,7 +60,7 @@
           <artifactId>javax.servlet.jsp.jstl-api</artifactId>
           <version>1.2.1</version>
       </dependency>
-      <dependency>
+            <dependency>
           <groupId>javax.servlet</groupId>
           <artifactId>javax.servlet-api</artifactId>
           <version>4.0.1</version>
