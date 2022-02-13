@@ -1,1 +1,0 @@
-eb: java $JAVA_OPTS -jar target/webapp-runner.war --port $PORT target/*.war
