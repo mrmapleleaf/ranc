@@ -4,12 +4,12 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/ranc.css">
+        <link rel="stylesheet" type="text/css" href="/random_account_name_creater-0.0.1-SNAPSHOT/css/ranc.css">
         <title>アカウント名つけるくん</title>
     </head>
     <body>
     <div id="header">
-        <img class="logo" alt="ロゴ" src="${pageContext.request.contextPath}/images/titleLogo.png">
+        <img class="logo" alt="ロゴ" src="/random_account_name_creater-0.0.1-SNAPSHOT/images/titleLogo.png">
         <h1>アカウント名つけるくん</h1>
         <span id="beta">β版</span>
     </div>
