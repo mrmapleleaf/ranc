@@ -4,7 +4,7 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-          <link rel="stylesheet" href="<c:url value='/css/ranc.css' />">
+          <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/ranc.css">
         <title>アカウント名つけるくん</title>
     </head>
     <body>
