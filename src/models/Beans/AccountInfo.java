@@ -1,14 +1,17 @@
 package models.Beans;
 
-public class AccountInfo {
+import java.io.Serializable;
 
-    @SuppressWarnings("unused")
-    private static final long serialVersionUID = 1L;
+public class AccountInfo implements Serializable{
 
     private String firstName;
     private String lastName;
     private String birthDate;
     private int birthDateNum;
+
+    public AccountInfo() {
+
+    }
 
     public AccountInfo(String firstName, String lastName, String birthDate) {
         this.firstName = firstName;
