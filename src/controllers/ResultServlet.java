@@ -45,7 +45,7 @@ public class ResultServlet extends HttpServlet {
         if(errorList.size() != 0) {
             hs.setAttribute("AccountInfo", ai);
             hs.setAttribute("errorList", errorList);
-            response.sendRedirect(request.getContextPath() + "/Toppage");
+            response.sendRedirect(request.getContextPath() + "/");
         } else {
             //アカウント名作成ロジック使用
             //urlをresult.jspへ設定

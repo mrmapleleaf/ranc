@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class ToppageServlet
  */
-@WebServlet("/Toppage")
+@WebServlet("/")
 public class ToppageServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -36,7 +36,9 @@ public class ToppageServlet extends HttpServlet {
      * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
      */
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getSession().removeAttribute("errorList");
+        if(request.getSession().getAttribute("errorList") != null) {
+            request.getSession().removeAttribute("errorList");
+        }
 
         RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/toppage.jsp");
         rd.forward(request, response);

@@ -11,7 +11,7 @@
         <div id="mainContent2">
             <p>あなたのアカウント名は今日から<span class="accountName">「<c:out value="${accountName}"/></span>」です。<br>
             良いSNSライフを！</p>
-            <form action="./Toppage" method="post">
+            <form action="./" method="post">
             <input type="submit" value="戻る">
             </form>
 
