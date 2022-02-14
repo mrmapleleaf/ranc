@@ -4,7 +4,7 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-          <link rel="stylesheet" type="text/css" href="/target/random_account_name_creater-0.0.1-SNAPSHOT/css/ranc.css">
+          <link rel="stylesheet" type="text/css" href="./css/ranc.css">
         <title>アカウント名つけるくん</title>
     </head>
     <body>
